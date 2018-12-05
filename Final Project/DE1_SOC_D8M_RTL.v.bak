@@ -141,15 +141,11 @@ module DE1_SOC_D8M_RTL(
 					.HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2), .HEX3(HEX3), .HEX4(HEX4), .HEX5(HEX5),
 					.LEDR(KEDR), .KEY(KEY[1:0]), .SW(SW[8:0]));
 					
-	wire [7:0] mod_R, mod_G, mod_B;
-	
-	color_mod mod (mod_R, mod_G, mod_B, post_VGA_R, post_VGA_G, post_VGA_B);
-					
 	assign VGA_BLANK_N = post_VGA_BLANK_N;
-	assign VGA_B = mod_B;
-	assign VGA_G = mod_G;
+	assign VGA_B = post_VGA_B;
+	assign VGA_G = post_VGA_G;
 	assign VGA_HS = post_VGA_HS;
-	assign VGA_R = mod_R;
+	assign VGA_R = post_VGA_R;
 	assign VGA_SYNC_N = post_VGA_SYNC_N;
 	assign VGA_VS = post_VGA_VS;
 

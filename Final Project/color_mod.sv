@@ -6,10 +6,11 @@ module color_mod #(parameter WIDTH = 640, parameter HEIGHT = 480)
 	
 	output logic [7:0] mred, mgreen, mblue;
 	
-	logic [7:0] avg = inred/3 + ingreen/3 + inblue/3;
+	logic [7:0] avg;
+	assign avg = inred/3 + ingreen/3 + inblue/3;
 	
 	always_comb begin
-		if (|color_S) begin
+		if (|color_s) begin
 			if (color_s[2]) mred = avg;
 			else mred = 0;
 			
