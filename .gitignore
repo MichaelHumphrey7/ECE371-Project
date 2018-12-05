@@ -1,2 +1,4 @@
 
 *.flock
+*.db_info
+*.sci

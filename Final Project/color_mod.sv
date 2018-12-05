@@ -25,4 +25,5 @@ module color_mod #(parameter WIDTH = 640, parameter HEIGHT = 480)
 			mblue = inblue;
 		end
 	end
+	
 endmodule
