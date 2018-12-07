@@ -1,0 +1,14 @@
+module color_mod #(parameter WIDTH = 640, parameter HEIGHT = 480)
+(mred, mgreen, mblue, inred, ingreen, inblue, color_num);
+	
+	input logic [1:0] color_num;
+	input logic [7:0] inred, ingreen, inblue;
+	
+	output logic [7:0] mred, mgreen, mblue;
+	
+	always_comb
+		case(color_num)
+		
+		
+	
+endmodule

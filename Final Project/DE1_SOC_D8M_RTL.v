@@ -143,7 +143,7 @@ module DE1_SOC_D8M_RTL(
 					
 	wire [7:0] mod_R, mod_G, mod_B;
 	
-	color_mod mod (mod_R, mod_G, mod_B, post_VGA_R, post_VGA_G, post_VGA_B);
+	color_mod mod (mod_R, mod_G, mod_B, post_VGA_R, post_VGA_G, post_VGA_B, SW[5:3]);
 					
 	assign VGA_BLANK_N = post_VGA_BLANK_N;
 	assign VGA_B = mod_B;
