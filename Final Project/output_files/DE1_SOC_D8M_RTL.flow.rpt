@@ -1,13 +1,5 @@
 Flow report for DE1_SOC_D8M_RTL
-<<<<<<< HEAD
-<<<<<<< HEAD
-Fri Dec 07 10:08:27 2018
-=======
-Wed Dec 05 17:02:02 2018
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-=======
-Wed Dec 05 17:02:02 2018
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
+Fri Dec 07 11:03:40 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -49,33 +41,25 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-<<<<<<< HEAD
-<<<<<<< HEAD
-; Flow Status                     ; Successful - Fri Dec 07 10:08:26 2018       ;
-=======
-; Flow Status                     ; Successful - Wed Dec 05 17:02:02 2018       ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-=======
-; Flow Status                     ; Successful - Wed Dec 05 17:02:02 2018       ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
+; Flow Status                     ; Successful - Fri Dec 07 11:03:23 2018       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; DE1_SOC_D8M_RTL                             ;
 ; Top-level Entity Name           ; DE1_SOC_D8M_RTL                             ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 2027                                        ;
-; Total pins                      ; 226                                         ;
+; Logic utilization (in ALMs)     ; 2,044 / 32,070 ( 6 % )                      ;
+; Total registers                 ; 3332                                        ;
+; Total pins                      ; 226 / 457 ( 49 % )                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 88,064                                      ;
-; Total DSP Blocks                ; 2                                           ;
+; Total block memory bits         ; 99,328 / 4,065,280 ( 2 % )                  ;
+; Total DSP Blocks                ; 2 / 87 ( 2 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 3                                           ;
-; Total DLLs                      ; 0                                           ;
+; Total PLLs                      ; 4 / 6 ( 67 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
 
@@ -84,15 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-<<<<<<< HEAD
-<<<<<<< HEAD
-; Start date & time ; 12/07/2018 10:07:44 ;
-=======
-; Start date & time ; 12/05/2018 17:01:32 ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-=======
-; Start date & time ; 12/05/2018 17:01:32 ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
+; Start date & time ; 12/07/2018 11:00:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE1_SOC_D8M_RTL     ;
 +-------------------+---------------------+
@@ -103,15 +79,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-<<<<<<< HEAD
-<<<<<<< HEAD
-; COMPILER_SIGNATURE_ID               ; 160948233335762.154420606409736        ; --            ; --          ; --         ;
-=======
-; COMPILER_SIGNATURE_ID               ; 193675814941286.154405809117396        ; --            ; --          ; --         ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-=======
-; COMPILER_SIGNATURE_ID               ; 193675814941286.154405809117396        ; --            ; --          ; --         ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
+; COMPILER_SIGNATURE_ID               ; 160948233335762.154420922710728        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; V/VIDEO_PLL_bb.v                       ; --            ; --          ; --         ;
@@ -125,39 +93,38 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-<<<<<<< HEAD
-<<<<<<< HEAD
-; Analysis & Synthesis ; 00:00:42     ; 1.0                     ; 4966 MB             ; 00:00:48                           ;
-; Total                ; 00:00:42     ; --                      ; --                  ; 00:00:48                           ;
-=======
-; Analysis & Synthesis ; 00:00:30     ; 1.0                     ; 4968 MB             ; 00:00:40                           ;
-; Total                ; 00:00:30     ; --                      ; --                  ; 00:00:40                           ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-=======
-; Analysis & Synthesis ; 00:00:30     ; 1.0                     ; 4968 MB             ; 00:00:40                           ;
-; Total                ; 00:00:30     ; --                      ; --                  ; 00:00:40                           ;
->>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:50     ; 1.0                     ; 4990 MB             ; 00:01:04                           ;
+; Fitter                    ; 00:01:45     ; 1.1                     ; 6807 MB             ; 00:02:59                           ;
+; Assembler                 ; 00:00:14     ; 1.0                     ; 4896 MB             ; 00:00:09                           ;
+; TimeQuest Timing Analyzer ; 00:00:16     ; 1.6                     ; 5292 MB             ; 00:00:23                           ;
+; Total                     ; 00:03:05     ; --                      ; --                  ; 00:04:35                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-PK2A1TJ  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-PK2A1TJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-PK2A1TJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-PK2A1TJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-PK2A1TJ  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
+quartus_fit --read_settings_files=off --write_settings_files=off DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
+quartus_asm --read_settings_files=off --write_settings_files=off DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
+quartus_sta DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
 
 
 

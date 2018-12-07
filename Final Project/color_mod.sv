@@ -28,26 +28,3 @@ module color_mod #(parameter WIDTH = 640, parameter HEIGHT = 480)
 	end
 	
 endmodule
-
-module color_mod_testbench();
-	logic [2:0] color_s;
-	logic [7:0] inred, ingreen, inblue;
-	logic [7:0] mred, mgreen, mblue;
-	
-	color_mod test (mred, mgreen, mblue, inred, ingreen, inblue, color_s);
-	
-	initial begin
-		inred = 127;
-		ingreen = 255;
-		inblue = 63;
-		color_s = 3'b100;
-		#100;
-		color_s[0] = 1;
-		#100;
-		color_s = 3'b010;
-		#100;
-		color_s = 3'b000;
-		#100;
-		$stop;
-	end
-endmodule

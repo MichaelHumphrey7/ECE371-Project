@@ -10,6 +10,9 @@
 
 module DE1_SOC_D8M_RTL(
 
+	/* All Audio Subsystem variables have been initialized 
+		with the Video system variables */
+
 	//////////// ADC //////////
 	output		          		ADC_CONVST,
 	output		          		ADC_DIN,
@@ -152,6 +155,15 @@ module DE1_SOC_D8M_RTL(
 	assign VGA_R = mod_R;
 	assign VGA_SYNC_N = post_VGA_SYNC_N;
 	assign VGA_VS = post_VGA_VS;
+	
+//=============================================================================
+// Added code to connect audio_controller for microphone in/out with filtering
+//=============================================================================
+	audio_controller microphoneSetup (CLOCK_50, CLOCK2_50, KEY, FPGA_I2C_SCLK, FPGA_I2C_SDAT, AUD_XCK, 
+							AUD_DACLRCK, AUD_ADCLRCK, AUD_BCLK, AUD_ADCDAT, AUD_DACDAT);
+
+	
+	
 
 //=============================================================================
 // REG/WIRE declarations
