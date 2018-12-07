@@ -1,5 +1,5 @@
 --lpm_mux DEVICE_FAMILY="Cyclone V" LPM_SIZE=2 LPM_WIDTH=1 LPM_WIDTHS=1 data result sel
---VERSION_BEGIN 17.0 cbx_lpm_mux 2017:04:25:18:06:30:SJ cbx_mgl 2017:04:25:18:09:28:SJ  VERSION_END
+--VERSION_BEGIN 17.0 cbx_lpm_mux 2017:06:07:18:15:09:SJ cbx_mgl 2017:06:07:18:19:41:SJ  VERSION_END
 
 
 -- Copyright (C) 2017  Intel Corporation. All rights reserved.

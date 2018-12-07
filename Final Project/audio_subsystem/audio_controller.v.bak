@@ -1,11 +1,10 @@
 // Task 2
 
-module audio_controller (CLOCK_50, CLOCK2_50, KEY, SW, FPGA_I2C_SCLK, FPGA_I2C_SDAT, AUD_XCK, 
+module audio_controller (CLOCK_50, CLOCK2_50, KEY, FPGA_I2C_SCLK, FPGA_I2C_SDAT, AUD_XCK, 
 		        AUD_DACLRCK, AUD_ADCLRCK, AUD_BCLK, AUD_ADCDAT, AUD_DACDAT);
 
 	input CLOCK_50, CLOCK2_50;
 	input [0:0] KEY;
-	input [9:0] SW;
 	// I2C Audio/Video config interface
 	output FPGA_I2C_SCLK;
 	inout FPGA_I2C_SDAT;
@@ -18,41 +17,15 @@ module audio_controller (CLOCK_50, CLOCK2_50, KEY, SW, FPGA_I2C_SCLK, FPGA_I2C_S
 	// Local wires.
 	wire read_ready, write_ready, read, write;
 	wire [23:0] readdata_left, readdata_right;
-	reg [23:0] writedata_left, writedata_right;
+	wire [23:0] writedata_left, writedata_right;
 	wire reset = ~KEY[0];
 
 	/////////////////////////////////
 	// Your code goes here 
 	/////////////////////////////////
-	
-	wire [23:0] writedata_left_mic, writedata_right_mic,
-					 writedata_square;
-	
-	squarewave_generator square (writedata_square, reset, CLOCK_50);
-					 
-	playback_filter dad (writedata_left_mic, writedata_right_mic, read, write,
+	playback_filter dad (writedata_left, writedata_right, read, write,
 								read_ready, write_ready, readdata_left, readdata_right, 
 								reset, CLOCK_50);
-	
-	always @(*) begin
-		case (SW[8:6])
-			3'b100:begin
-				writedata_left = writedata_square;
-				writedata_right = writedata_square;
-			end
-			default:begin
-				writedata_left = writedata_left_mic;
-				writedata_right = writedata_right_mic;
-			end
-		endcase
-		/*
-		if (~SW[8:6]) begin
-			writedata_left = writedata_left_mic;
-			writedata_right = writedata_right_mic;
-		end
-		else if (
-		*/
-	end
 	
 	/*
 	assign writedata_left = readdata_left;

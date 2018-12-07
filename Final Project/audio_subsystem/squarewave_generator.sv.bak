@@ -1,0 +1,5 @@
+module squarewave_generator (writedata_square, 
+	
+	
+	
+parameter NOTE_FREQUENCY = 440;
