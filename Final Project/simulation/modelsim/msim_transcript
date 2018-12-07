@@ -1,0 +1,199 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SOC_D8M_RTL_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/CLOCK_DELAY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/CLOCK_DELAY.v 
+# -- Compiling module CLOCK_DELAY
+# 
+# Top level modules:
+# 	CLOCK_DELAY
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V_D8M {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/VGA_RD_COUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/VGA_RD_COUNTER.v 
+# -- Compiling module VGA_RD_COUNTER
+# 
+# Top level modules:
+# 	VGA_RD_COUNTER
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_WRITE_WDATA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_WRITE_WDATA.v 
+# -- Compiling module I2C_WRITE_WDATA
+# 
+# Top level modules:
+# 	I2C_WRITE_WDATA
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_WRITE_PTR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_WRITE_PTR.v 
+# -- Compiling module I2C_WRITE_PTR
+# 
+# Top level modules:
+# 	I2C_WRITE_PTR
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_RESET_DELAY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_RESET_DELAY.v 
+# -- Compiling module I2C_RESET_DELAY
+# 
+# Top level modules:
+# 	I2C_RESET_DELAY
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_READ_DATA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:44 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/I2C_READ_DATA.v 
+# -- Compiling module I2C_READ_DATA
+# 
+# Top level modules:
+# 	I2C_READ_DATA
+# End time: 17:05:44 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/pll_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/pll_test.v 
+# -- Compiling module pll_test
+# 
+# Top level modules:
+# 	pll_test
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/RESET_DELAY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/RESET_DELAY.v 
+# -- Compiling module RESET_DELAY
+# 
+# Top level modules:
+# 	RESET_DELAY
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/CLOCKMEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V/CLOCKMEM.v 
+# -- Compiling module CLOCKMEM
+# 
+# Top level modules:
+# 	CLOCKMEM
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V_D8M {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/RAW2RGB_J.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/RAW2RGB_J.v 
+# -- Compiling module RAW2RGB_J
+# 
+# Top level modules:
+# 	RAW2RGB_J
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V_D8M {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/RAW_RGB_BIN.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/RAW_RGB_BIN.v 
+# -- Compiling module RAW_RGB_BIN
+# 
+# Top level modules:
+# 	RAW_RGB_BIN
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V_D8M {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:45 on Dec 05,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M" C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v 
+# -- Compiling module MIPI_CAMERA_CONFIG
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(70): (vlog-2730) Undefined variable: 'W_POINTER_GO'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(71): (vlog-2730) Undefined variable: 'R_GO'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(96): (vlog-2730) Undefined variable: 'W_POINTER_END'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(111): (vlog-2730) Undefined variable: 'R_END'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(155): (vlog-2730) Undefined variable: 'SLV8_REG16_DATA8'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(223): (vlog-2730) Undefined variable: 'W_WORD_SCL'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(223): (vlog-2730) Undefined variable: 'W_POINTER_SCL'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(223): (vlog-2730) Undefined variable: 'R_SCL'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(224): (vlog-2730) Undefined variable: 'W_POINTER_SDAO'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(224): (vlog-2730) Undefined variable: 'R_SDAO'.
+# ** Error: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(224): (vlog-2730) Undefined variable: 'W_WORD_SDAO'.
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(228): (vlog-2388) 'W_WORD_SCL' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(229): (vlog-2388) 'W_WORD_SDAO' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(253): (vlog-2388) 'W_POINTER_SCL' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(254): (vlog-2388) 'W_POINTER_END' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(255): (vlog-2388) 'W_POINTER_GO' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(256): (vlog-2388) 'W_POINTER_SDAO' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(279): (vlog-2388) 'R_SCL' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(280): (vlog-2388) 'R_END' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(281): (vlog-2388) 'R_GO' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(282): (vlog-2388) 'R_SDAO' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error: (vlog-13069) C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(301): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(306): (vlog-2388) 'RESET_N_1' already declared in this scope (MIPI_CAMERA_CONFIG).
+# ** Error (suppressible): C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/V_D8M/MIPI_CAMERA_CONFIG.v(316): (vlog-2388) 'SLV8_REG16_DATA8' already declared in this scope (MIPI_CAMERA_CONFIG).
+# End time: 17:05:45 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 24, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./DE1_SOC_D8M_RTL_run_msim_rtl_verilog.do line 19
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Jonathan\ Do/Documents/GitHub/ECE371-Project/Final\ Project/V_D8M {C:/Users/Jonathan Do/Documents/GitHu..."
+vlog -reportprogress 300 -work work {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:06:05 on Dec 05,2018
+# vlog -reportprogress 300 -work work C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv 
+# -- Compiling module color_mod
+# -- Compiling module color_mod_testbench
+# 
+# Top level modules:
+# 	color_mod_testbench
+# End time: 17:06:05 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:06:11 on Dec 05,2018
+# vlog -reportprogress 300 -work work C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv 
+# -- Compiling module color_mod
+# -- Compiling module color_mod_testbench
+# 
+# Top level modules:
+# 	color_mod_testbench
+# End time: 17:06:11 on Dec 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.color_mod_testbench
+# vsim work.color_mod_testbench 
+# Start time: 17:06:15 on Dec 05,2018
+# Loading sv_std.std
+# Loading work.color_mod_testbench
+# Loading work.color_mod
+add wave -position end  sim:/color_mod_testbench/inred
+add wave -position end  sim:/color_mod_testbench/ingreen
+add wave -position end  sim:/color_mod_testbench/inblue
+add wave -position end  sim:/color_mod_testbench/color_s
+add wave -position end  sim:/color_mod_testbench/mred
+add wave -position end  sim:/color_mod_testbench/mgreen
+add wave -position end  sim:/color_mod_testbench/mblue
+run -all
+# ** Note: $stop    : C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv(51)
+#    Time: 400 ps  Iteration: 0  Instance: /color_mod_testbench
+# Break in Module color_mod_testbench at C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv line 51
+# End time: 17:10:06 on Dec 05,2018, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 0

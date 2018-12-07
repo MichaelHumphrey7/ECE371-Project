@@ -1,5 +1,9 @@
 Analysis & Synthesis report for DE1_SOC_D8M_RTL
+<<<<<<< HEAD
 Fri Dec 07 10:08:27 2018
+=======
+Wed Dec 05 17:02:02 2018
+>>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -147,7 +151,11 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
+<<<<<<< HEAD
 ; Analysis & Synthesis Status     ; Successful - Fri Dec 07 10:08:26 2018       ;
+=======
+; Analysis & Synthesis Status     ; Successful - Wed Dec 05 17:02:02 2018       ;
+>>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; DE1_SOC_D8M_RTL                             ;
 ; Top-level Entity Name           ; DE1_SOC_D8M_RTL                             ;
@@ -4094,7 +4102,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
+<<<<<<< HEAD
 ; Top            ; 00:00:24     ;
+=======
+; Top            ; 00:00:19     ;
+>>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
 +----------------+--------------+
 
 
@@ -4104,12 +4116,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+<<<<<<< HEAD
     Info: Processing started: Fri Dec 07 10:07:43 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file color_mod.sv
     Info (12023): Found entity 1: color_mod File: C:/Users/micha/GitHub/ECE371-Project/Final Project/color_mod.sv Line: 1
+=======
+    Info: Processing started: Wed Dec 05 17:01:31 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SOC_D8M_RTL -c DE1_SOC_D8M_RTL
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 2 design units, including 2 entities, in source file color_mod.sv
+    Info (12023): Found entity 1: color_mod File: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv Line: 1
+    Info (12023): Found entity 2: color_mod_testbench File: C:/Users/Jonathan Do/Documents/GitHub/ECE371-Project/Final Project/color_mod.sv Line: 32
+>>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
 Info (12021): Found 1 design units, including 1 entities, in source file v/clock_delay.v
     Info (12023): Found entity 1: CLOCK_DELAY File: C:/Users/micha/GitHub/ECE371-Project/Final Project/V/CLOCK_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/vga_rd_counter.v
@@ -4921,11 +4943,19 @@ Info (21057): Implemented 4180 device resources after synthesis - the final reso
     Info (21064): Implemented 56 RAM segments
     Info (21065): Implemented 4 PLLs
     Info (21062): Implemented 2 DSP elements
+<<<<<<< HEAD
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 283 warnings
     Info: Peak virtual memory: 4966 megabytes
     Info: Processing ended: Fri Dec 07 10:08:27 2018
     Info: Elapsed time: 00:00:44
     Info: Total CPU time (on all processors): 00:00:49
+=======
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 286 warnings
+    Info: Peak virtual memory: 4968 megabytes
+    Info: Processing ended: Wed Dec 05 17:02:02 2018
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:41
+>>>>>>> c2742c7a78df02970eb7ed5f4b80650d489de1e5
 
 
 +------------------------------------------+
